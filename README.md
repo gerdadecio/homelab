@@ -1,8 +1,8 @@
 # 🏠 Homelab
 
-I have been tinkering on networking stuff lately for the purpose of learning and to have my own private server at home since all of the big techs are taking away our privacy especially now with the rise of AI. While doing this, I thought of publishing my setup for future reference and to share it to the community as well.
+I have been tinkering around networking stuff lately for the purpose of learning and to have my own private server at home since all of the big techs are taking away our privacy especially now with the rise of AI. While doing this, I thought of publishing my setup for future reference and to share it to the community as well.
 
-This repo contains all of the configuration and documentation of my homelab which is inspired by https://github.com/mischavandenburg/homelab.
+Inspired by https://github.com/mischavandenburg/homelab, this repo contains all of the configuration and documentation of my homelab.
 
 ## 🔧 Hardware
 
@@ -38,7 +38,7 @@ End User Applications
   <tr>
     <td><img width="32" src="https://openwebui.com/logo.png"></td>
     <td><a href="https://github.com/open-webui/open-webui">Openweb UI</a></td>
-    <td>AI chat interface for Ollama LLMs</td>
+    <td>AI chat interface for Ollama/HF LLMs</td>
   </td>
   <tr>
     <td><img width="32" src="https://www.svgrepo.com/download/504676/obsidian.svg"></td>
@@ -48,7 +48,7 @@ End User Applications
   <tr>
     <td><img width="32" src="https://www.svgrepo.com/download/349479/plex.svg"></td>
     <td><a href="https://www.plex.tv/">Plex</a></td>
-    <td>Self-hosted media player similar to netflix</td>
+    <td>Self-hosted media player similar to netflix. Installed through Synology's package center.</td>
   </tr>
 </table>
 
@@ -117,6 +117,10 @@ Other utility tools
     <td>Network-wide Ad blocking tool</td>
   </tr>
 </table>
+
+### Networking
+
+This is a very simple setup, no kubernetes or any load balancer of some sort as this is just a personal setup and will be accessed by a few people. Getting access is through [Twingate](https://www.twingate.com/) and users are assigned a specific a network and ports for security.
 
 ### Environment Variables
 

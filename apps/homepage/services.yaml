@@ -8,11 +8,11 @@
           type: glances
           url: "{{HOMEPAGE_VAR_GLANCES_URL}}"
           metric: info
-    - Website Uptime:
+    - Websites Uptime:
         widget:
           type: uptimekuma
           url: "{{HOMEPAGE_VAR_UPTIME_KUMA_URL}}"
-          metric: websites
+          slug: websites
 
 - NAS Overview:
     - CPU Usage:
