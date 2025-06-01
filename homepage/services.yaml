@@ -1,0 +1,37 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/services/
+
+- Homelab System Monitoring:
+    - Glances Full Width:
+        widget:
+          type: glances
+          url: "{{HOMEPAGE_VAR_GLANCES_URL}}"
+          metric: info
+
+- NAS Overview:
+    - CPU Usage:
+        widget:
+          type: glances
+          url: "{{HOMEPAGE_VAR_GLANCES_URL}}"
+          metric: cpu
+    - Memory Usage:
+        widget:
+          type: glances
+          url: "{{HOMEPAGE_VAR_GLANCES_URL}}"
+          metric: memory
+    - Temperature:
+        widget:
+          type: glances
+          url: "{{HOMEPAGE_VAR_GLANCES_URL}}"
+          metric: sensor:Physical id 0
+    - Network Usage:
+        widget:
+          type: glances
+          url: "{{HOMEPAGE_VAR_GLANCES_URL}}"
+          metric: network:eth0
+    - Disk Usage:
+        widget:
+          type: glances
+          url: "{{HOMEPAGE_VAR_GLANCES_URL}}"
+          metric: disk:sata1

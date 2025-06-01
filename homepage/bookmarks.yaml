@@ -1,0 +1,61 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/bookmarks
+
+- Homelab:
+    - Pihole:
+        - abbr: PH
+          icon: pi-hole.png
+          href: "{{HOMEPAGE_VAR_PIHOLE_URL}}"
+    - Twingate:
+        - abbr: Twingate
+          icon: twingate.png
+          href: "{{HOMEPAGE_VAR_TWINGATE_URL}}"
+    - Glances:
+        - abbr: GL
+          icon: glances.png
+          href: "{{HOMEPAGE_VAR_GLANCES_URL}}"
+    - UptimeKuma:
+        - abbr: UK
+          icon: uptime-kuma.png
+          href: "{{HOMEPAGE_VAR_UPTIME_KUMA_URL}}"
+    - Nasberries:
+        - abbr: NB
+          icon: synology.png
+          href: "{{HOMEPAGE_VAR_NAS_URL}}"
+    - Surveillance:
+        - abbr: SS
+          icon: synology-surveillance-station
+          href: "{{HOMEPAGE_VAR_SURVEILLANCE_STATION_URL}}"
+
+- Development:
+    - Github:
+        - abbr: GH
+          icon: github.png
+          href: "{{HOMEPAGE_VAR_GITHUB_URL}}"
+
+- Social:
+    - YouTube:
+        - abbr: YT
+          icon: youtube.png
+          href: https://youtube.com/
+
+- Productivity:
+    - AI:
+        - abbr: AI
+          icon: open-webui.png
+          href: "{{HOMEPAGE_VAR_OPENWEB_UI_URL}}"
+    - Linear:
+        - abbr: LI
+          icon: linear.png
+          href: "{{HOMEPAGE_VAR_LINEAR_URL}}"
+    - N8n:
+        - abbr: N8n
+          icon: n8n.png
+          href: "{{HOMEPAGE_VAR_N8N_URL}}"
+
+- Entertainment:
+    - Plex:
+        - abbr: PX
+          icon: plex.png
+          href: "{{HOMEPAGE_VAR_PLEX_URL}}"
