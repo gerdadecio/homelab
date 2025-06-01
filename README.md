@@ -7,7 +7,7 @@ Inspired by https://github.com/mischavandenburg/homelab, this repo contains all 
 ## 🔧 Hardware
 
 ### Synology NAS
-For the past three years, I've been utilising my Synology NAS as a reliable home server. It efficiently manages and stores all my files and apps, allowing me remote access via the internet and file sharing with family and friends.
+For the past three years, I've been utilising my Synology NAS as a reliable home server. It efficiently manages and stores all my files and apps, allowing me remote access and share files with family and friends via the internet.
 
 - DS420+ with 2.0 GHz CPU, 2GB RAM
 - 10TB Seagate SATA Main drive
