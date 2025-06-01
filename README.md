@@ -49,7 +49,7 @@ End User Applications
     <td><img width="32" src="https://www.svgrepo.com/download/349479/plex.svg"></td>
     <td><a href="https://www.plex.tv/">Plex</a></td>
     <td>Self-hosted media player similar to netflix</td>
-  </td>
+  </tr>
 </table>
 
 ### Infrastructure
@@ -68,15 +68,10 @@ Everything needed to run and deploy my applications
     <td>Synology's lightweight virtualization application for running docker containers</td>
   </td>
   <tr>
-    <td><img width="32" src="https://www.svgrepo.com/download/306557/pi-hole.svg"></td>
-    <td><a href="https://pi-hole.net/">Pihole</a></td>
-    <td>Network-wide Ad blocking tool</td>
-  </td>
-  <tr>
     <td><img width="32" src="https://www.svgrepo.com/download/519802/torguard.svg"></td>
     <td><a href="https://www.twingate.com/">Twingate</a></td>
     <td>Zero-trust remote access to a network resource</td>
-  </td>
+  </tr>
 </table>
 
 ### Monitoring
@@ -103,7 +98,24 @@ Monitor the health of the systems.
     <td><img width="32" src="https://www.svgrepo.com/download/448228/grafana.svg"></td>
     <td><a href="https://grafana.com/">Grafana</a></td>
     <td>The open observability platform.</td>
-  </td>
+  </tr>
+</table>
+
+### Utilities
+
+Other utility tools
+
+<table>
+  <tr>
+    <th>Logo</th>
+    <th>Name</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td><img width="32" src="https://www.svgrepo.com/download/306557/pi-hole.svg"></td>
+    <td><a href="https://pi-hole.net/">Pihole</a></td>
+    <td>Network-wide Ad blocking tool</td>
+  </tr>
 </table>
 
 ### Environment Variables

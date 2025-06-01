@@ -6,10 +6,12 @@ providers:
   openweathermap: openweathermapapikey
   weatherapi: weatherapiapikey
 
+color: slate
+
 layout:
-  Homelab System Monitoring:
+  Monitoring:
     style: row
-    columns: 1 # Full-width section for the top Glances widget
+    columns: 2 # Full-width section for the top Glances widget
   NAS Overview:
     style: row
     columns: 3 # 3x2 grid for the other Glances widgets

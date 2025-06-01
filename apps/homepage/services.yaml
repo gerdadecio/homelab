@@ -2,12 +2,17 @@
 # For configuration options and examples, please see:
 # https://gethomepage.dev/configs/services/
 
-- Homelab System Monitoring:
-    - Glances Full Width:
+- Monitoring:
+    - System Info:
         widget:
           type: glances
           url: "{{HOMEPAGE_VAR_GLANCES_URL}}"
           metric: info
+    - Website Uptime:
+        widget:
+          type: uptimekuma
+          url: "{{HOMEPAGE_VAR_UPTIME_KUMA_URL}}"
+          metric: websites
 
 - NAS Overview:
     - CPU Usage:
