@@ -114,7 +114,7 @@ Other utility tools
   <tr>
     <td><img width="32" src="https://www.svgrepo.com/download/306557/pi-hole.svg"></td>
     <td><a href="https://pi-hole.net/">Pihole</a></td>
-    <td>Network-wide Ad blocking tool</td>
+    <td>Network-wide Ad blocker</td>
   </tr>
 </table>
 
