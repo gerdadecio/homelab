@@ -31,7 +31,7 @@
     - UptimeKuma:
         - abbr: UK
           icon: uptime-kuma.png
-          href: "{{HOMEPAGE_VAR_UPTIME_KUMA_URL}}"
+          href: "{{HOMEPAGE_VAR_UPTIME_KUMA_WEBSITES_URL}}"
     - Nasberries:
         - abbr: NB
           icon: synology.png
