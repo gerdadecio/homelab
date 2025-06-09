@@ -40,3 +40,8 @@
           type: glances
           url: "{{HOMEPAGE_VAR_GLANCES_URL}}"
           metric: disk:sata1
+    - Pi Hole:
+        widget:
+          type: pihole
+          url: "{{HOMEPAGE_VAR_PIHOLE_URL}}"
+          key: "{{HOMEPAGE_VAR_PIHOLE_API_KEY}}"

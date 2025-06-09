@@ -7,6 +7,15 @@
         - abbr: PH
           icon: pi-hole.png
           href: "{{HOMEPAGE_VAR_PIHOLE_URL}}"
+    - Disable Pihole:
+        - abbr: DPH
+          icon: pi-hole.png
+          href: "{{HOMEPAGE_VAR_PIHOLE_DISABLE_URL}}"
+    - Adguard DNS:
+        - abbr: DPH
+          icon: adguard-home.png
+          href: https://adguard-dns.io/en/dashboard
+
     - Twingate:
         - abbr: Twingate
           icon: twingate.png
@@ -31,6 +40,10 @@
         - abbr: SS
           icon: synology-surveillance-station
           href: "{{HOMEPAGE_VAR_SURVEILLANCE_STATION_URL}}"
+    - BLOCKLISTS:
+        - abbr: BL
+          icon: adblock.png
+          href: https://firebog.net
 
 - Development:
     - Github:
