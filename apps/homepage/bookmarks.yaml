@@ -15,7 +15,10 @@
         - abbr: DPH
           icon: adguard-home.png
           href: https://adguard-dns.io/en/dashboard
-
+    - Home Router:
+        - abbr: HR
+          icon: router.png
+          href: "{{HOMEPAGE_VAR_ROUTER_URL}}"
     - Twingate:
         - abbr: Twingate
           icon: twingate.png
@@ -31,7 +34,7 @@
     - UptimeKuma:
         - abbr: UK
           icon: uptime-kuma.png
-          href: "{{HOMEPAGE_VAR_UPTIME_KUMA_URL}}"
+          href: "{{HOMEPAGE_VAR_UPTIME_KUMA_WEBSITES_URL}}"
     - Nasberries:
         - abbr: NB
           icon: synology.png
@@ -92,3 +95,7 @@
         - abbr: PX
           icon: plex.png
           href: "{{HOMEPAGE_VAR_PLEX_URL}}"
+    - Photos:
+        - abbr: PH
+          icon: synology-photos.png
+          href: "{{HOMEPAGE_VAR_NASPHOTOS_URL}}"
