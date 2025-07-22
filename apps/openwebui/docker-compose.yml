@@ -1,13 +1,4 @@
 services:
-  ollama:
-    volumes:
-      - ollama:/root/.ollama
-    container_name: ollama
-    pull_policy: always
-    tty: true
-    restart: unless-stopped
-    image: ollama/ollama:latest
-
   open-webui:
     build:
       args:
@@ -16,8 +7,6 @@ services:
     container_name: open-webui
     volumes:
       - open-webui:/app/backend/data
-    depends_on:
-      - ollama
     ports:
       - 9000:8080
     env_file:
@@ -27,5 +16,4 @@ services:
     restart: unless-stopped
 
 volumes:
-  ollama: {}
   open-webui: {}

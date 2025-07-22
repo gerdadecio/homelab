@@ -2,19 +2,25 @@
 # For configuration options and examples, please see:
 # https://gethomepage.dev/configs/services/
 
-- Monitoring:
-    - System Info:
+- Overall:
+    - NAS System Info:
         widget:
           type: glances
           url: "{{HOMEPAGE_VAR_GLANCES_URL}}"
           metric: info
+    - LUNA System Info:
+        widget:
+          type: glances
+          url: "{{HOMEPAGE_VAR_LUNA_GLANCES_URL}}"
+          metric: info
     - Websites Uptime:
         widget:
+          statusStyle: "dot"
           type: uptimekuma
           url: "{{HOMEPAGE_VAR_UPTIME_KUMA_URL}}"
           slug: websites
 
-- NAS Overview:
+- NASberries:
     - CPU Usage:
         widget:
           type: glances
@@ -45,3 +51,30 @@
           type: pihole
           url: "{{HOMEPAGE_VAR_PIHOLE_URL}}"
           key: "{{HOMEPAGE_VAR_PIHOLE_API_KEY}}"
+
+- LUNATheBeast:
+    - CPU Usage:
+        widget:
+          type: glances
+          url: "{{HOMEPAGE_VAR_LUNA_GLANCES_URL}}"
+          metric: cpu
+    - GPU Usage:
+        widget:
+          type: glances
+          url: "{{HOMEPAGE_VAR_LUNA_GLANCES_URL}}"
+          metric: gpu:0
+    - Memory Usage:
+        widget:
+          type: glances
+          url: "{{HOMEPAGE_VAR_LUNA_GLANCES_URL}}"
+          metric: memory
+    - Network Usage:
+        widget:
+          type: glances
+          url: "{{HOMEPAGE_VAR_LUNA_GLANCES_URL}}"
+          metric: network:eth0
+    - Disk Usage:
+        widget:
+          type: glances
+          url: "{{HOMEPAGE_VAR_LUNA_GLANCES_URL}}"
+          metric: disk:sdf

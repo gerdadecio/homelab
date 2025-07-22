@@ -18,17 +18,17 @@ services:
       - TZ=${TZ}
       - GLANCES_OPT=-C /glances/conf/glances.conf -w
 #     # Uncomment for GPU compatibility (Nvidia) inside the container
-#     deploy:
-#       resources:
-#         reservations:
-#           devices:
-#             - driver: nvidia
-#               count: 1
-#               capabilities: [gpu]
-#     # Uncomment to protect Glances WebUI by a login/password (add --password to GLANCES_OPT)
-#     secrets:
-#       - source: glances_password
-#         target: /root/.config/glances/<login>.pwd
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    # Uncomment to protect Glances WebUI by a login/password (add --password to GLANCES_OPT)
+    # secrets:
+    #   - source: glances_password
+    #     target: /root/.config/glances/<login>.pwd
 
 # secrets:
 #   glances_password:
