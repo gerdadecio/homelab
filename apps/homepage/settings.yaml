@@ -9,9 +9,12 @@ providers:
 color: slate
 
 layout:
-  Monitoring:
+  Overall:
     style: row
-    columns: 2 # Full-width section for the top Glances widget
-  NAS Overview:
+    columns: 3 # Full-width section for the top Glances widget
+  NASberries:
+    style: row
+    columns: 3 # 3x2 grid for the other Glances widgets
+  LUNATheBeast:
     style: row
     columns: 3 # 3x2 grid for the other Glances widgets
